@@ -14,6 +14,7 @@
 		7EB6E67420F5E20D00BFA88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EB6E67220F5E20D00BFA88D /* LaunchScreen.storyboard */; };
 		7EB6E67F20F5E20D00BFA88D /* Silly_SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6E67E20F5E20D00BFA88D /* Silly_SongTests.swift */; };
 		7EB6E68A20F5E20D00BFA88D /* Silly_SongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6E68920F5E20D00BFA88D /* Silly_SongUITests.swift */; };
+		7ED7D37920F846B300E94279 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7ED7D37820F846B300E94279 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7EB6E68520F5E20D00BFA88D /* Silly SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB6E68920F5E20D00BFA88D /* Silly_SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongUITests.swift; sourceTree = "<group>"; };
 		7EB6E68B20F5E20D00BFA88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED7D37820F846B300E94279 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		7EB6E65D20F5E20A00BFA88D = {
 			isa = PBXGroup;
 			children = (
+				7ED7D37820F846B300E94279 /* .gitignore */,
 				7EB6E66820F5E20A00BFA88D /* Silly Song */,
 				7EB6E67D20F5E20D00BFA88D /* Silly SongTests */,
 				7EB6E68820F5E20D00BFA88D /* Silly SongUITests */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED7D37920F846B300E94279 /* .gitignore in Resources */,
 				7EB6E67420F5E20D00BFA88D /* LaunchScreen.storyboard in Resources */,
 				7EB6E67120F5E20D00BFA88D /* Assets.xcassets in Resources */,
 				7EB6E66F20F5E20A00BFA88D /* Main.storyboard in Resources */,
