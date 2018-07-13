@@ -21,16 +21,25 @@ class Silly_SongTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testRemoveConsonantBeforeFirstVowel() {
+        let name = "Nate";
+        let expectedProcessedName = "ate";
+        let actualProcessedName = shortNameFromName(name: name);
+        XCTAssertEqual(actualProcessedName, expectedProcessedName, "Should be ate because the first vowel is a, and the consonant before it is 'N'.");
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testRemoveNothingIfFirstCharacterIsAVowel() {
+        let name = "Aaron";
+        let expectedProcessedName = "aaron";
+        let actualProcessedName = shortNameFromName(name: name);
+        XCTAssertEqual(actualProcessedName, expectedProcessedName, "Should be aaron because the first vowel is also the first character in the string.");
+    }
+    
+    func testRemoveNothingIfNoVowelInName() {
+        let name = "Gwn";
+        let expectedProcessedName = "gwn";
+        let actualProcessedName = shortNameFromName(name: name);
+        XCTAssertEqual(actualProcessedName, expectedProcessedName, "Should be gwn because because no vowel is found in the string.");
     }
     
 }
