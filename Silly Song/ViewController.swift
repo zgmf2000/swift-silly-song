@@ -20,15 +20,19 @@ let bananaFanaTemplate = [
 func shortNameFromName(name: String) -> String {
     var cleanedName = name.lowercased().folding(options: .diacriticInsensitive, locale: nil);
     var loopIndex: Int = 0;
+    var vowelIsFound: Bool = false;
     
     for character in cleanedName.unicodeScalars {
         if vowelCharacters.contains(character) {
+            vowelIsFound = true;
             break;
         }
-        loopIndex += 1;
+        else {
+            loopIndex += 1;
+        }
     }
     
-    if (loopIndex > 0) {
+    if (loopIndex > 0 && vowelIsFound) {
         let targetIndex = name.index(name.startIndex, offsetBy: loopIndex);
         cleanedName.remove(at: cleanedName.index(before: targetIndex));
     }
