@@ -49,6 +49,7 @@
 		7EB6E68920F5E20D00BFA88D /* Silly_SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongUITests.swift; sourceTree = "<group>"; };
 		7EB6E68B20F5E20D00BFA88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ED7D37820F846B300E94279 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7ED7D37A20F88C0A00E94279 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		7EB6E65D20F5E20A00BFA88D = {
 			isa = PBXGroup;
 			children = (
+				7ED7D37A20F88C0A00E94279 /* README.md */,
 				7ED7D37820F846B300E94279 /* .gitignore */,
 				7EB6E66820F5E20A00BFA88D /* Silly Song */,
 				7EB6E67D20F5E20D00BFA88D /* Silly SongTests */,
